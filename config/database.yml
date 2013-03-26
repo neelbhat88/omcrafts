@@ -17,13 +17,13 @@ development:
   encoding: unicode
   database: omcrafts_development
   pool: 5
-  username: omcrafts
-  password:
+  username: postgres
+  password: neel
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
   # domain sockets, so uncomment these lines.
-  #host: localhost
+  host: localhost
   #port: 5432
 
   # Schema search path. The server defaults to $user,public
@@ -49,7 +49,9 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: omcrafts_production
+  database: d21fi26h30ikkh
   pool: 5
-  username: omcrafts
-  password:
+  username: dsfgtsdlmutbrc
+  password: nmYuUfOfXtXecgz1K3n47aSGaD
+  host: ec2-54-243-230-119.compute-1.amazonaws.com
+  port: 5432
