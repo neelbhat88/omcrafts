@@ -1,3 +1,111 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$blue: #00c2c9;
+$orange: #f4b41c;
+
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+body
+{
+	font-family: Candara;
+}
+
+.top
+{
+	border-bottom: 1px solid black;
+	height: 120px;
+	width: 100%;
+	background-color: black;	
+
+	position: fixed;
+	top: 0px;
+	z-index: 10;
+
+	text-align: center;
+	font-weight: bold;
+
+	box-shadow: 0 0 10px #444;
+}
+
+#om_logo
+{
+	height: 100px;
+	padding-top: 10px;
+}
+
+.intro
+{
+	background: white;
+	height: 230px;
+	width: 100%;
+
+	position: relative;
+	top: 110px;
+
+	text-align: center;
+	padding: 20px;
+	color: $blue;
+}
+
+.om_bg
+{
+	background: white url("../assets/om_background.jpg") no-repeat center top;
+	background-size: cover;
+	background-attachment: fixed;
+
+	position: relative;
+
+	height: 400px;
+	width: 100%;
+}
+
+.decoration_bg
+{
+	background: white url("../assets/decoration_background.jpg") no-repeat center top;
+	background-size: cover;
+	background-attachment: fixed;
+
+	position: relative;
+
+	height: 400px;
+	width: 100%;
+}
+
+.gallery
+{
+	background: white;
+	height: 400px;
+	width: 100%;
+
+	position: relative;
+
+	text-align: center;
+	padding: 20px;
+}
+
+.contact
+{
+	background: white;
+	height: 230px;
+	width: 100%;
+
+	position: relative;	
+
+	text-align: center;
+	padding: 20px;	
+}
+
+.blue
+{
+	color: $blue;
+}
+
+.orange
+{
+	color: $orange;
+}
