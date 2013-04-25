@@ -48,25 +48,22 @@ body
 	top: 110px;
 
 	text-align: center;
-	padding: 20px;
+	padding: 20px 0;
 	color: $blue;
 }
 
 .om_bg
 {
-	background: white url("../assets/om_background.jpg") no-repeat center top;
-	background-size: cover;
-	background-attachment: fixed;
-
-	position: relative;
-
-	height: 400px;
-	width: 100%;
+	background: white url("../assets/om_background.jpg") no-repeat center top;	
 }
 
 .decoration_bg
 {
-	background: white url("../assets/decoration_background.jpg") no-repeat center top;
+	background: white url("../assets/decoration_background.jpg") no-repeat center top;	
+}
+
+.background
+{	
 	background-size: cover;
 	background-attachment: fixed;
 
@@ -74,18 +71,20 @@ body
 
 	height: 400px;
 	width: 100%;
+	
+	box-shadow: inset 0 0 10px #FFF;
 }
 
 .gallery
 {
 	background: white;
-	height: 400px;
+	height: 600px;
 	width: 100%;
 
 	position: relative;
 
 	text-align: center;
-	padding: 20px;
+	padding: 20px 0;
 }
 
 .contact
@@ -97,7 +96,7 @@ body
 	position: relative;	
 
 	text-align: center;
-	padding: 20px;	
+	padding: 20px 0;	
 }
 
 .blue

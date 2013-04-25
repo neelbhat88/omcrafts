@@ -1,0 +1,12 @@
+$(document).ready(function()
+{
+	Galleria.loadTheme("<%= javascript_path('galleria.classic.js') %>");
+    Galleria.run('#galleria');
+});
+
+Galleria.ready(function(){
+	var gallery = this;
+	$('#button').click(function(){
+		gallery.toggleFullscreen();
+	});
+});

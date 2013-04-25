@@ -1,27 +1,34 @@
 <div class="top">
 	<%= image_tag("om_logo.png", :id => "om_logo") %>
-	<div style="background-color: red; padding: 3px;">
+	<!-- <div style="background-color: red; padding: 3px;">
 		<h2 style="color: white"> This site is still under construction. Please check back again soon!</h2>
-	</div>
+	</div> -->
 </div>
 <div class="intro">
-	<h1 class="blue">Welcome to Om Crafts</h1>
+	<h1 class="blue" style="margin-bottom: 0px">Welcome to Om Crafts</h1>
 	
-	<h2>Beautiful one-of-a-kind hand crafted decorative pieces</h2>
+	<h2>Beautiful, one-of-a-kind, hand crafted decorative pieces</h2>
+
+	<div class="orange" style="font-size: 18px; line-height: 1.2; padding: 0 20px">
+		Are you looking for something unique to add to your home? Omcrafts is here to help. With a variety of elegant and intricately designed hand crafted pieces for all occasions, we promise you will find something that you will love.
+	</div>
 </div>
 
-<div class="om_bg"></div>
+<div class="background om_bg"></div>
 
 <div class="gallery">
 	<h1 class="orange">Gallery</h1>
-	<h2>Take a look at the various items we provide. All are hand made</h2>
-	<h2>More info here...</h2>
+	<h2>From floating tea light holders to diyas, Omcrafts has a variety of items to choose from.</h2>	
+	<button id="button" style="position: absolute; z-index: 9; bottom: 10px; right: 10px;">Fullscreen</button>
+	<div id="galleria" style="height: 425px">
+		<%= image_tag("img1.JPG", :data_title => "Img1", :data_big => image_path('img1.JPG')) %>
+		<%= image_tag("img2.JPG", :data_title => "img2") %>		
+	</div>	
 </div>
 
-<div class="decoration_bg"></div>
+<div class="background decoration_bg"></div>
 
 <div class="contact">
 	<h1 class="blue">Contact</h1>
-	<h2>Do you like what you see? Contact Anupama Bhat at</h2>
-	<h2>More info here...</h2>
+	<h2>Contact Anupama Bhat at <a href="mailto:omcrafts@gmail.com">omcrafts@gmail.com</a> or (847) 549-9211 for any questions or to place your order. </h2>	
 </div>
