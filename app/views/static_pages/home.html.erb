@@ -19,11 +19,13 @@
 <div class="gallery">
 	<h1 class="orange">Gallery</h1>
 	<h2>From floating tea light holders to diyas, Omcrafts has a variety of items to choose from.</h2>	
-	<button id="button" style="position: absolute; z-index: 9; bottom: 10px; right: 10px;">Fullscreen</button>
+	<!-- <button id="button" style="position: absolute; z-index: 9; bottom: 10px; right: 10px;">Fullscreen</button>
 	<div id="galleria" style="height: 425px">
 		<%= image_tag("img1.JPG", :data_title => "Img1", :data_big => image_path('img1.JPG')) %>
 		<%= image_tag("img2.JPG", :data_title => "img2") %>		
-	</div>	
+	</div>	 -->
+	<img src="<%= image_path('img1.JPG')%>" style="height: 300px"></img>
+	<img src="<%= image_path('img2.JPG')%>" style="height: 300px"></img>
 </div>
 
 <div class="background decoration_bg"></div>
